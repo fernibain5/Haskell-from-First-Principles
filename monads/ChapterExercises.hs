@@ -84,8 +84,3 @@ instance Functor List where
 --   return = pure
 --   (>>=) (List a) f = f a
 
-classify :: Int -> Int
-classify n 
-  | n > 0 = aliquotSum
-  | otherwise = 0
-  where aliquoutSum = [  x  | x <- [1..10] | y <- [1..23] ]
